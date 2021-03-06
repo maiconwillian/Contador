@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <section>
+    <header>
+        <h1> Vamos Contar</h1>
+    <hr> 
+    
+    </header>
+    <div>
+        <p>Digite o numero <strong>inicial</strong> que voce deseja fazer a contagem o <strong>final</strong>, e o <strong>passo</strong> da contagem.</p>
+       
+    </div>
+
+        <div id="bloco">
+            <div>Início: <input type="number" name="inicio" id="inicio"></div>
+            <div>Fim: <input type="number" name="fim" id="fim"></div>
+            <div>Passo: <input type="number" name="passo" id="passo"></div>
+        </div>
+       
+       
+       
+        <button type="button" onclick="contar()">Contar</button>
+        <button type="button" onclick="limpar()">Limpar</button>
+        
+        
+        <div id="legen">
+            <p id="legenpar">Numero&nbsp;Par</p>
+        </div>
+        
+
+        <div id="result">Contando...</div>
+        
+        <hr> 
+        <footer>
+            <p>&copy;Maicon Willian</p>
+        </footer>
+
+    </section>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
